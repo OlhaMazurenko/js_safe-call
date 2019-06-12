@@ -1,7 +1,7 @@
 function safeCall(f) {
   try {
     f();
-  } catch(event) {
+  } catch(error) {
     return false;
   }
   return true
